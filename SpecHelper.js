@@ -9,11 +9,17 @@ beforeEach(function () {
     toBeInteger: function () {
       return typeof(this.actual) === 'integer';
     },
+    toBeFunction: function () {
+      return typeof(this.actual) === 'function';
+    },
     toBeUnique: function () {
-      return $(this.actual).size() >= 0;
-    },  
+      return $(this.actual).size() === 1;
+    },
     toExist: function () {
       return $(this.actual).size() >= 0;
+    },
+    toBeVisible: function () {
+      return $(this.actual).css('display') !== undefined && $(this.actual).css('display') !== 'none';
     }
   })
 });

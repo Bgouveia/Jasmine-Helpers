@@ -14,3 +14,6 @@
 
 **toBeVisible:** checks if the given element is visible
 
+**DOM:** simplify interactions with DOM
+- createElement
+  dom.createElement('div')

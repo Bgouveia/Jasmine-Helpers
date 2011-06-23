@@ -44,3 +44,5 @@
 - getCreatedElements
   Returns all the elements created with this helper, for debugging purporses.
 
+- destroy
+  Destroy all created elements using this helper

@@ -67,5 +67,10 @@ var dom = (function () {
     getCreatedElements: function () {
       return createdElements;
     },
+    destroy: function () {
+      for (i in createdElements) {
+        document.body.removeChild(createdElements[i]);
+      }
+    }
   };
 })();

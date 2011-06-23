@@ -36,5 +36,9 @@ var dom = (function () {
       element.id = id;
       return this;
     },
+    withClasses: function (classNames) {
+      element.className = classNames;
+      return this;
+    },
   };
 })();

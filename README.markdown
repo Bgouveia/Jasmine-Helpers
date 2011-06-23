@@ -21,3 +21,6 @@
 - withId
   dom.createElement('div').withId('myId')
 
+- withClasses
+  dom.createElement('div').withClasses('firstClass secondClass')
+

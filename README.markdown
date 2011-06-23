@@ -28,3 +28,6 @@
 - withContent
   dom.createElement('div').withContent('this is my content sample')
 
+- withValue
+  dom.createElement('input').ofType('text').withValue('this is my sample value');
+

@@ -48,5 +48,9 @@ var dom = (function () {
       element.innerHTML = content;
       return this;
     },
+    withValue: function (value) {
+      element.value = value;
+      return this;
+    },
   };
 })();

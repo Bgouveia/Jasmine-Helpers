@@ -23,3 +23,8 @@ beforeEach(function () {
     }
   })
 });
+var dom = (function () {
+  var element, createdElements = [];
+  return {
+  };
+})();

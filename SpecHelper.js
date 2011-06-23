@@ -26,5 +26,11 @@ beforeEach(function () {
 var dom = (function () {
   var element, createdElements = [];
   return {
+    createElement: function (tagName) {
+      element = document.createElement(tagName);
+      createdElements.push(element);
+      element.display = 'none';
+      return this;
+    },
   };
 })();

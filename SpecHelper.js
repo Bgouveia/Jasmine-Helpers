@@ -52,5 +52,17 @@ var dom = (function () {
       element.value = value;
       return this;
     },
+    andAppendTo: function (elementToAppend) {
+      if (typeof(elementToAppend) !== 'object') {
+        if (document.getElementById(elementToAppend) !== null)
+          elementToAppend = document.getElementById(elementToAppend);
+        else if (document.getElementsByTagName(elementToAppend) !== null)
+          elementToAppend = document.getElementsByTagName(elementToAppend)[0];
+        else if (document.getElementsByClassName(elementToAppend) !== null)
+          elementToAppend = document.getElementsByClassName(elementToAppend)[0];
+      }
+      elementToAppend.appendChild(element);
+      return this;
+    },
   };
 })();

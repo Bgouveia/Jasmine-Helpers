@@ -31,3 +31,13 @@
 - withValue
   dom.createElement('input').ofType('text').withValue('this is my sample value');
 
+- andAppendTo
+  * Ex.1 - object:
+  dom.createElement('div').andAppendTo(document.body)
+  * Ex.2 - ID:
+  dom.createElement('div').andAppendTo('myBodyId')
+  * Ex.3 - Tag Name:
+  dom.createElement('div').andAppendTo('body')
+  * Ex.4 - Class Name:
+  dom.createElement('div').andAppendTo('myBodyClass')
+

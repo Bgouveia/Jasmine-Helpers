@@ -13,13 +13,13 @@ beforeEach(function () {
       return typeof(this.actual) === 'function';
     },
     toBeUnique: function () {
-      return $(this.actual).size() === 1;
+      return this.actual.length === undefined || this.actual.length === 1;
     },
     toExist: function () {
-      return $(this.actual).size() >= 0;
+      return this.actual !== null;
     },
     toBeVisible: function () {
-      return $(this.actual).css('display') !== undefined && $(this.actual).css('display') !== 'none';
+      return this.actual.offsetHeight !== 0 && this.actual.offsetWidth !== 0;
     }
   })
 });

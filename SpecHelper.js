@@ -70,6 +70,7 @@ var dom = (function () {
     destroy: function () {
       for (i in createdElements) {
         document.body.removeChild(createdElements[i]);
+        createdElements.pop(i);
       }
     }
   };

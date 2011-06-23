@@ -14,22 +14,22 @@
 
 **DOM:** simplify interactions with DOM
 - createElement
-  dom.createElement('div')
+  * dom.createElement('div')
 
 - ofType
-  dom.createElement('input').ofType('text')
+  * dom.createElement('input').ofType('text')
 
 - withId
-  dom.createElement('div').withId('myId')
+  * dom.createElement('div').withId('myId')
 
 - withClasses
-  dom.createElement('div').withClasses('firstClass secondClass')
+  * dom.createElement('div').withClasses('firstClass secondClass')
 
 - withContent
-  dom.createElement('div').withContent('this is my content sample')
+  * dom.createElement('div').withContent('this is my content sample')
 
 - withValue
-  dom.createElement('input').ofType('text').withValue('this is my sample value');
+  * dom.createElement('input').ofType('text').withValue('this is my sample value');
 
 - andAppendTo
   * Ex.1 - object:
@@ -42,7 +42,9 @@
   dom.createElement('div').andAppendTo('myBodyClass')
 
 - getCreatedElements
-  Returns all the elements created with this helper, for debugging purporses.
+  * Returns all the elements created through this helper, for debugging purporses.
+  * dom.getCreatedElements()
 
 - destroy
-  Destroy all created elements using this helper
+  * Destroy all the elements created through this helper
+  * dom.destroy()

@@ -24,3 +24,6 @@
 - withClasses
   dom.createElement('div').withClasses('firstClass secondClass')
 
+- withContent
+  dom.createElement('div').withContent('this is my content sample')
+

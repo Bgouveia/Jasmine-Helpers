@@ -40,5 +40,9 @@ var dom = (function () {
       element.className = classNames;
       return this;
     },
+    withContent: function (content) {
+      element.innerHTML = content;
+      return this;
+    },
   };
 })();

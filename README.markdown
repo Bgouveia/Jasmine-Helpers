@@ -41,3 +41,6 @@
   * Ex.4 - Class Name:
   dom.createElement('div').andAppendTo('myBodyClass')
 
+- getCreatedElements
+  Returns all the elements created with this helper, for debugging purporses.
+

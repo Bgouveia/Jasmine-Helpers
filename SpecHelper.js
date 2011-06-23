@@ -64,5 +64,8 @@ var dom = (function () {
       elementToAppend.appendChild(element);
       return this;
     },
+    getCreatedElements: function () {
+      return createdElements;
+    },
   };
 })();

@@ -32,6 +32,10 @@ var dom = (function () {
       element.display = 'none';
       return this;
     },
+    ofType: function (typeOfElement) {
+      element.type = typeOfElement;
+      return this;
+    },
     withId: function (id) {
       element.id = id;
       return this;

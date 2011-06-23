@@ -16,6 +16,9 @@
 - createElement
   dom.createElement('div')
 
+- ofType
+  dom.createElement('input').ofType('text')
+
 - withId
   dom.createElement('div').withId('myId')
 

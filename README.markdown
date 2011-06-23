@@ -11,3 +11,6 @@
 
 **toExist:** verify the existence of the given parameter (.class, #id, element)
 **toExist:** verify the existence of the given element
+
+**toBeVisible:** checks if the given element is visible
+

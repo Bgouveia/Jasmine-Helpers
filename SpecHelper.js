@@ -32,5 +32,9 @@ var dom = (function () {
       element.display = 'none';
       return this;
     },
+    withId: function (id) {
+      element.id = id;
+      return this;
+    },
   };
 })();

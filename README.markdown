@@ -17,3 +17,7 @@
 **DOM:** simplify interactions with DOM
 - createElement
   dom.createElement('div')
+
+- withId
+  dom.createElement('div').withId('myId')
+

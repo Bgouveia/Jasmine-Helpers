@@ -6,13 +6,15 @@
 
 **toBeNumber:** verify if parameter is a number
 
-**toBeUnique:** check the uniqueness of the given element
+**toBeFunction:** verify if parameter is a function
 
-**toExist:** verify the existence of the given element
+**toBeUnique:** verify the uniqueness of the given parameter (array or object)
 
-**toBeVisible:** checks if the given element is visible
+**toExist:** verify the existence of the given parameter
 
 **toBeUndefined:** checks if the given parameter is undefined
+
+**toBeVisible:** checks if the given dom element is visible
 
 **toBeNull:** checks if the given parameter is null
 

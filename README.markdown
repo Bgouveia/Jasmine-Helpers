@@ -12,6 +12,9 @@
 
 **toBeVisible:** checks if the given element is visible
 
+**toBeUndefined:** checks if the given parameter is undefined
+
+
 **DOM:** simplify interactions with DOM
 - createElement
   * dom.createElement('div')

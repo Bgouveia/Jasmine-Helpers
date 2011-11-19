@@ -18,6 +18,9 @@ beforeEach(function () {
     toExist: function () {
       return this.actual !== null;
     },
+    toBeUndefined: function () {
+      return this.actual === undefined;
+    },
     toBeVisible: function () {
       return this.actual.offsetHeight !== 0 && this.actual.offsetWidth !== 0;
     }

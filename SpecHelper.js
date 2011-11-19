@@ -1,7 +1,7 @@
 beforeEach(function () {
   this.addMatchers({
     toBeObject: function () {
-      return typeof(this.actual) === 'object';
+      return this.actual !== null && typeof(this.actual) === 'object';
     },
     toBeString: function () {
       return typeof(this.actual) === 'string';

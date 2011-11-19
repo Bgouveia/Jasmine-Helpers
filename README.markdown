@@ -4,7 +4,7 @@
 
 **toBeString:** verify if parameter is string
 
-**toBeInteger:** verify if parameter is integer
+**toBeNumber:** verify if parameter is a number
 
 **toBeUnique:** check the uniqueness of the given element
 

@@ -6,8 +6,8 @@ beforeEach(function () {
     toBeString: function () {
       return typeof(this.actual) === 'string';
     },
-    toBeInteger: function () {
-      return typeof(this.actual) === 'integer';
+    toBeNumber: function () {
+      return !isNaN(parseFloat(this.actual)) && typeof this.actual !== 'string';
     },
     toBeFunction: function () {
       return typeof(this.actual) === 'function';

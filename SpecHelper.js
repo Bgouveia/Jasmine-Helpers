@@ -23,9 +23,13 @@ beforeEach(function () {
     },
     toBeVisible: function () {
       return this.actual.offsetHeight !== 0 && this.actual.offsetWidth !== 0;
+    },
+    toBeNull: function () {
+      return this.actual == null;
     }
   })
 });
+
 var dom = (function () {
   var element, createdElements = [];
   return {

@@ -14,6 +14,7 @@
 
 **toBeUndefined:** checks if the given parameter is undefined
 
+**toBeNull:** checks if the given parameter is null
 
 **DOM:** simplify interactions with DOM
 - createElement

@@ -13,7 +13,7 @@ beforeEach(function () {
       return typeof(this.actual) === 'function';
     },
     toBeUnique: function () {
-      return this.actual.length === undefined || this.actual.length === 1;
+      return (this.actual !== null && this.actual !== undefined) && (this.actual.length === undefined || this.actual.length === 1);
     },
     toExist: function () {
       return this.actual !== null;
